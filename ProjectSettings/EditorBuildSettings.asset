@@ -5,10 +5,19 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/01_Menu/MainMenuScene.unity
     guid: 0ffac6132adb54714954003a60f4f424
   - enabled: 1
     path: Assets/02_Student Folders/IvanAnderegg_Assets/IvanAnderegg_Scene.unity
     guid: bd8b4dd04d0c0ef4db8bc2f689622230
+  - enabled: 1
+    path: Assets/02_Student Folders/JobVanDijke_Assets/JobVanDijke_Scene.unity
+    guid: c43faa58f8cb80a4b9ca228d2fed2d7d
+  - enabled: 1
+    path: Assets/02_Student Folders/SamChamanZibai_Assets/SamChamanZibai.unity
+    guid: 5782b2201c84e4c488a7459db9630293
+  - enabled: 1
+    path: Assets/02_Student Folders/SvenPaque_Assets/SvenPaque_Scene.unity
+    guid: b89fb240c72275e48b21fa00b76d3155
   m_configObjects: {}
