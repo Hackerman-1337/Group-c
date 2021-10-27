@@ -468,7 +468,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   detectionSourcePoint: {fileID: 6571005840976436832}
   detectionRange: 40
-  attackRange: 10
+  attackRange: 20
   knownTargetTimeout: 12
   animator: {fileID: 0}
 --- !u!1 &6421371450313891992
@@ -798,6 +798,7 @@ MonoBehaviour:
   continuousShootStartSFX: {fileID: 0}
   continuousShootLoopSFX: {fileID: 0}
   continuousShootEndSFX: {fileID: 0}
+  unlimitedAmmo: 0
 --- !u!82 &2231955200838058728
 AudioSource:
   m_ObjectHideFlags: 0
