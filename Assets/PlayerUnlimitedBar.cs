@@ -20,7 +20,10 @@ public class PlayerUnlimitedBar : MonoBehaviour
     {
         if (player.time > 0f)
         {
-            image.fillAmount = player.time/10f;
+            if (image != null)
+            {
+                image.fillAmount = player.time / 10f;
+            }
         }
     }
 }
