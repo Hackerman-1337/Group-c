@@ -13,7 +13,7 @@ public class dropFloor : MonoBehaviour
     void Start()
     {
        	startTimer = false; 
-       	timer = 3.0f;
+       	timer = 2.5f;
     }
 
     // Update is called once per frame
@@ -21,11 +21,11 @@ public class dropFloor : MonoBehaviour
     {
 		if (timer > -1.0f && startTimer){
 			timer -= Time.deltaTime;  
-			if (timer < 2.0f)
+			if (timer < 1.5f)
 			{
-				if (timer >= 1.0f)
+				if (timer >= 0.5f)
 					GetComponent<MeshRenderer>().material = materialOrange;
-				else if (timer < 1.0f && timer > 0.0f)
+				else if (timer < 0.5f && timer > 0.0f)
 					GetComponent<MeshRenderer>().material = materialRed;
 				else
 					Destroy(this.gameObject);;
