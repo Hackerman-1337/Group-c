@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 16ce58563c5ee654292a3537d60e865d
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - teleportTarget: {instanceID: 0}
+  - thePlayer: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
