@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Script_StartMessage : MonoBehaviour
+public class GameStart: MonoBehaviour
 {
 
     public GameObject UIStart;
